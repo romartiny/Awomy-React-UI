@@ -2,7 +2,7 @@ import React, { Suspense } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { routeConfig } from '../../../../shared/config/routeConfig/routeConfig';
 import WelcomeLayout from '../../../../layouts/MainLayout/ui/WelcomeLayout';
-import { ContentHashLoader, PageHashLoader } from '../../../../components/Loader';
+import { PageHashLoader } from '../../../../components/Loader';
 
 const AppRouter = () => {
   return (

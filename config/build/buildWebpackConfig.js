@@ -11,9 +11,9 @@ function buildWebpackConfig (options) {
     entry: paths.entry,
     output: {
       filename: 'js/awomy.js',
-      chunkFilename: '[contenthash:32].chunk.js',
+      chunkFilename: 'js/chunks/[contenthash:32].chunk.js',
       path: paths.build,
-      clean: true
+      // clean: true
     },
     plugins: buildPlugins(options),
     module: {

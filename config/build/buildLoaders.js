@@ -27,7 +27,7 @@ function buildLoaders () {
         }
       }
     ],
-    include: path.resolve(__dirname, 'src/assets/img')
+    include: path.resolve(__dirname, 'src/app/assets/img')
   };
 
   const svgLoader = {
@@ -36,7 +36,7 @@ function buildLoaders () {
       {
         loader: 'file-loader',
         options: {
-          name: '[contenthash:32].[ext]'
+          name: 'assets/images/[contenthash:32].[ext]'
         }
       }
     ]
@@ -47,7 +47,7 @@ function buildLoaders () {
     use: {
       loader: 'file-loader',
       options: {
-        name: '[contenthash:32].[ext]'
+        name: 'assets/jsons/[contenthash:32].[ext]'
       }
     }
   };

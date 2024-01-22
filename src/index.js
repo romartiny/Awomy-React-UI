@@ -1,7 +1,7 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import './app/assets/styles/index.css';
-import App from './app/App';
+import App from './app/App.jsx';
 import { BrowserRouter } from 'react-router-dom';
 import { ErrorBoundary } from './app/providers/ErrorBoundary';
 

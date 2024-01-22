@@ -2,7 +2,7 @@
   "name": "awomy-ui",
   "version": "1.0.1",
   "description": "ui for awomy project",
-  "main": "index.jsx",
+  "main": "index.js",
   "scripts": {
     "dev": "webpack serve --env port=3000",
     "build:dev": "webpack --env mode=development webpack.config.js",
@@ -56,6 +56,7 @@
     "cssnano": "^6.0.1",
     "postcss-class-rename": "^1.0.1",
     "react-dom": "^18.2.0",
-    "react-spinners": "^0.13.8"
+    "react-spinners": "^0.13.8",
+    "terser-webpack-plugin": "^5.3.10"
   }
 }

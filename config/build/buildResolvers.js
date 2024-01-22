@@ -1,6 +1,6 @@
 function buildResolvers () {
   return {
-    extensions: ['.jsx', '.js']
+    extensions: ['.jsx', '.js'],
     // preferAbsolute: true
   };
 }
