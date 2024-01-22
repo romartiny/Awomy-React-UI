@@ -15,8 +15,8 @@ const HomePage = () => {
     return (
         <div className="page-container relative" >
             <div className="h-screen flex flex-col relative overflow-hidden">
-                <div className={`header-container ${mobileFixed ? 'hidden' : 'block'} lg:none w-full z-30 h-[4.9rem]`}></div>
-                <header className={`header-container ${mobileFixed ? 'relative' : 'fixed'} lg:fixed w-full z-30`}>
+                <div className={`header-container ${mobileFixed ? 'block' : 'hidden'} lg:none w-full z-30 h-[4.9rem]`}></div>
+                <header className={`header-container ${mobileFixed ? 'fixed' : 'relative'} lg:fixed w-full z-30`}>
                     <HeaderBlock onMobileOpened={onMobileOpened}/>
                 </header>
                 <HeroBlock/>
