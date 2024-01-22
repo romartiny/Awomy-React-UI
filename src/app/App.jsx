@@ -2,12 +2,12 @@ import React from 'react';
 import './assets/styles/App.scss';
 import { AppRouter } from './providers/router';
 import ConnectionDetector from '../components/ConnectionDetector';
-import {HomePageAsync} from "../pages/HomePage/ui/HomePage.async";
+import {HeaderBlock} from "../components/Header/HeaderBlock";
 
 function App () {
   return (
     <ConnectionDetector>
-        <HomePageAsync />
+        <HeaderBlock />
       <AppRouter/>
     </ConnectionDetector>
   );
