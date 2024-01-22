@@ -8,12 +8,13 @@ import { Popover } from '@headlessui/react';
 import { MobileNavigationLinks } from './MobileNavigationLinks';
 import { FrameTap } from '../ui/MotionEffect';
 
-export const HeaderLayout = () => {
+export const HeaderLayout = ({onMobileOpened}) => {
   const [hoverIndex, setHoverIndex] = useState(null);
   const [isOpenNavigation, setIsOpenNavigation] = useState(false);
 
   const toggleOpenNavigation = () => {
     setIsOpenNavigation(!isOpenNavigation);
+    onMobileOpened(isOpenNavigation);
   };
 
   return (
