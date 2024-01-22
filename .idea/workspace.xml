@@ -5,8 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a55e056-9f63-4b93-b47a-9ed59a69c668" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Home/Hero/HeroBlock.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/HeaderLayout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/HeaderLayout.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/AppFeature.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/AppScreen.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/CircleBackground.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/Cons.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/DesktopFeature.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/DeviceIcons.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/FeatureMobile.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/HeroBlock.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/MobileScreens.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/PhoneFrame.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/StockLogos.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/footerData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/footerData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/homeData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/homeData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/HomePage/ui/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage/ui/HomePage.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +61,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/Home/Hero" />
       <recent name="$PROJECT_DIR$/src/app/assets/fonts" />
     </key>
   </component>
@@ -80,7 +96,7 @@
       <workItem from="1705857181912" duration="19929000" />
       <workItem from="1705882144165" duration="216000" />
       <workItem from="1705914046157" duration="27607000" />
-      <workItem from="1705947082258" duration="1271000" />
+      <workItem from="1705947082258" duration="2144000" />
     </task>
     <servers />
   </component>

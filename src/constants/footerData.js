@@ -62,7 +62,7 @@ export const footerData = {
     }
   ],
   copyright: {
-    title: '© Copyright 2023. All rights reserved.',
+    title: 'Awomy © Copyright 2024. All rights reserved.',
     link: '/copyright'
   }
 };
