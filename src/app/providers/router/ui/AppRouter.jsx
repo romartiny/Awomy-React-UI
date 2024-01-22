@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react';
-import { Route, Routes } from 'react-router-dom';
+import {Navigate, Route, Routes} from 'react-router-dom';
 import { routeConfig } from '../../../../shared/config/routeConfig/routeConfig';
 import WelcomeLayout from '../../../../layouts/MainLayout/ui/WelcomeLayout';
 import { PageHashLoader } from '../../../../components/Loader';
@@ -20,6 +20,7 @@ const AppRouter = () => {
             ))
           }
         </Route>
+          <Route path={'*'} element={<Navigate to={'/'} />} />
       </Routes>
     </Suspense>
   );
