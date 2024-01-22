@@ -10,7 +10,7 @@ function buildWebpackConfig (options) {
     mode,
     entry: paths.entry,
     output: {
-      filename: '[contenthash:32].bundle.js',
+      filename: 'js/awomy.js',
       chunkFilename: '[contenthash:32].chunk.js',
       path: paths.build,
       clean: true
