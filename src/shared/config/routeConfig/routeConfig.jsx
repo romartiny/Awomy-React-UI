@@ -6,5 +6,9 @@ export const routeConfig = {
   main: {
     path: '/',
     element: <HomePage />
+  },
+  notFound: {
+    path: '*',
+    element: <Navigate to={'/'} replace />
   }
 };
