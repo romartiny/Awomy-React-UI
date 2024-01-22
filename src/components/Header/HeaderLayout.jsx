@@ -77,7 +77,7 @@ export const HeaderLayout = () => {
           {
             isOpenNavigation && (
                 <Popover className="lg:hidden">
-                  <Popover.Overlay static as={motion.div} initial={{opacity: 0}} animate={{opacity: 1}} exit={{opacity: 0}} className="fixed z-20 inset-0 bg-gray-600/10 backdrop-blur cursor-default"/>
+                  {/*<Popover.Overlay static as={motion.div} initial={{opacity: 0}} animate={{opacity: 1}} exit={{opacity: 0}} className="fixed z-20 inset-0 bg-gray-600/10 backdrop-blur cursor-default"/>*/}
                   <Popover.Panel static as={motion.div} initial={{opacity: 0, y: -32}} animate={{opacity: 1, y: 0}} exit={{opacity: 0, y: -32, transition: {duration: 0.2}}} className="absolute inset-x-0 top-0 z-30 origin-top rounded-b-2xl px-6 sm:px-8 bg-gray-800 pb-6 pt-24 shadow-2xl shadow-gray-900/20 cursor-default">
                     <div className="space-y-4">
                       {
