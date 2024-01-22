@@ -11,9 +11,9 @@ function buildPlugins({paths}) {
         }),
         new CopyWebpackPlugin({
             patterns: [
-                {from: 'public/manifest', to: ''},
-                {from: 'public/images', to: 'assets/images'},
-                {from: 'public/robots', to: ''},
+                // {from: 'public/manifest', to: ''},
+                // {from: 'public/images', to: 'assets/images'},
+                // {from: 'public/robots', to: ''},
             ],
         }),
         new webpack.ProgressPlugin()
