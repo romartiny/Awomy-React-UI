@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import logoUrl from '../../app/assets/img/logo.png';
 import { navigationLinks } from '../../constants/headerData';
 import { AnimatePresence, motion } from 'framer-motion';
@@ -9,8 +9,13 @@ import { MobileNavigationLinks } from './MobileNavigationLinks';
 import { FrameTap } from '../ui/MotionEffect';
 
 export const HeaderLayout = ({onMobileOpened}) => {
+  const location = useLocation();
   const [hoverIndex, setHoverIndex] = useState(null);
   const [isOpenNavigation, setIsOpenNavigation] = useState(false);
+
+  useEffect(() => {
+    backgroundCloseClick();
+  }, [location]);
 
   const toggleOpenNavigation = () => {
     setIsOpenNavigation(!isOpenNavigation);
@@ -27,7 +32,7 @@ export const HeaderLayout = ({onMobileOpened}) => {
       <div className="flex">
         <div className="relative z-40 flex items-center">
           <div className="header-logo">
-            <Link to="/" className="flex items-center" onClick={() => toggleOpenNavigation(false)}>
+            <Link to="/" className="flex items-center">
               <img src={logoUrl} className="mr-3 h-8 md:lg-9 sm:h-9 lg:h-9 drop-shadow-xl" alt="Awomy logo"/>
               <h1 className="dark:text-white self-center whitespace-nowrap text-2xl lg:text-3xl font-semibold">Awomy</h1>
             </Link>

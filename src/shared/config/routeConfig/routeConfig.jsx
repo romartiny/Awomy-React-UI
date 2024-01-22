@@ -5,5 +5,9 @@ export const routeConfig = {
   main: {
     path: '/',
     element: <HomePage />
+  },
+  notFound: {
+    path: '*',
+    element: <HomePage />
   }
 };

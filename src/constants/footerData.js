@@ -6,23 +6,23 @@ export const footerData = {
     },
     {
       title: 'Learn',
-      link: '/cryptocurrency'
-    },
-    {
-      title: 'About',
-      link: '/buycrypto'
-    },
-    {
-      title: 'Netflow',
-      link: '/netflow'
+      link: '/learn'
     },
     {
       title: 'Support',
-      link: '/contact'
+      link: '/support'
+    },
+    {
+      title: 'About',
+      link: '/about'
+    },
+    {
+      title: 'Help',
+      link: '/help'
     },
     {
       title: 'Download',
-      link: '/help'
+      link: '/download'
     }
   ],
   resourcesLinks: [

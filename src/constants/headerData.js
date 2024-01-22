@@ -4,7 +4,7 @@ import {
   faBookmark,
   faMoneyBill,
   faShieldHeart,
-  faQuestion
+  faQuestion, faFileArrowDown
 } from '@fortawesome/free-solid-svg-icons';
 
 export const navigationLinks = [
@@ -19,6 +19,12 @@ export const navigationLinks = [
     title: 'Safety',
     href: '/learn',
     icon: faShieldHeart
+  },
+  {
+    _id: 6,
+    title: 'Download',
+    href: '/download',
+    icon: faFileArrowDown
   },
   {
     _id: 3,
