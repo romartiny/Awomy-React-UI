@@ -14,17 +14,17 @@ export const HeaderLayout = ({onMobileOpened}) => {
   const [isOpenNavigation, setIsOpenNavigation] = useState(false);
 
   useEffect(() => {
-    backgroundCloseClick();
+    backgroundCloseClick(false);
   }, [location]);
 
   const toggleOpenNavigation = () => {
     setIsOpenNavigation(!isOpenNavigation);
-    onMobileOpened(isOpenNavigation);
+    onMobileOpened(!isOpenNavigation);
   };
 
-  const backgroundCloseClick = () => {
-    setIsOpenNavigation(false);
-    onMobileOpened(isOpenNavigation);
+  const backgroundCloseClick = (action) => {
+    setIsOpenNavigation(action);
+    onMobileOpened(action);
   };
 
   return (
@@ -91,9 +91,9 @@ export const HeaderLayout = ({onMobileOpened}) => {
                     </div>
                   </Popover.Panel>
                   <Popover.Panel static as={motion.div} initial={{opacity: 0, y: 32}} animate={{opacity: 1, y: 0}} exit={{opacity: 0, y: 32, transition: {duration: 0.2}}} className="w-full bottom-0 right-0 fixed z-30 origin-bottom rounded-t-2xl bg-gray-800 px-5 pb-5 pt-5 shadow-2xl shadow-gray-900/20 cursor-default">
-                    <button className="w-full text-white bg-pink-600 hover:bg-pink-700 font-bold rounded-lg text-sm px-5 py-2.5 mr-2 transition ease-in-out delay-70 focus:outline-none dark:focus:ring-blue-800">
+                    <Link to={'/login'} className="flex justify-center w-full text-white bg-pink-600 hover:bg-pink-700 font-bold rounded-lg text-sm px-5 py-2.5 mr-2 transition ease-in-out delay-70 focus:outline-none dark:focus:ring-blue-800">
                       Log in
-                    </button>
+                    </Link>
                   </Popover.Panel>
                 </Popover>
               )}

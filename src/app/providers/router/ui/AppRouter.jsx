@@ -10,14 +10,8 @@ const AppRouter = () => {
       <Routes>
         <Route path={'/'} element={<WelcomeLayout/>}>
           {
-            Object.values(routeConfig).map(({
-              element,
-              path
-            }) => (
-              <Route
-                key={path}
-                path={path}
-                element={
+            Object.values(routeConfig).map(({element, path}) => (
+              <Route key={path} path={path} element={
                   <Suspense fallback={<PageHashLoader />}>
                     {element}
                   </Suspense>
