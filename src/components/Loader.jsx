@@ -6,17 +6,7 @@ import loaderImage from './../app/assets/img/logo.png';
 export const PageHashLoader = () => {
   return (
       <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-          <motion.div
-              initial={{ opacity: 0, scale: 0.8 }}
-              animate={{ opacity: 1, scale: [0.8, 1.25, 1] }}
-              transition={{
-                  duration: 1,
-                  repeat: Infinity,
-                  ease: 'easeInOut',
-                  repeatType: 'loop',
-                  repeatDelay: 0.7,
-              }}
-          >
+          <motion.div initial={{ opacity: 0, scale: 0.8 }} animate={{ opacity: 1, scale: [0.8, 1.25, 1] }} transition={{duration: 1, repeat: Infinity, ease: 'easeInOut', repeatType: 'loop', repeatDelay: 0.7,}}>
               <img src={loaderImage} height={100} width={100} alt={'Loader image'}/>
           </motion.div>
       </div>

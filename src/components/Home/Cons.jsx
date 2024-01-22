@@ -7,11 +7,7 @@ import { FrameHover, FrameMotion } from '../ui/MotionEffect';
 const Cons = () => {
   return (
     <section className="unset lg:relative z-30 bg-black rounded-t-xl">
-      <Container
-        id="account"
-        aria-label="Features for building a portfolio"
-        className="py-20 sm:py-32"
-      >
+      <Container id="account" aria-label="2" className="py-20 sm:py-32">
         <FrameMotion initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ type: 'spring', stiffness: 130, damping: 25 }}>
           <div className=" mx-auto max-w-2xl sm:text-center">
             <Title title={consData.title} className="text-2xl"/>

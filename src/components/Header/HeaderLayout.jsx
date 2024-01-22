@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import logoUrl from '../../app/assets/img/logo.png';
 import { navigationLinks } from '../../constants/headerData';
@@ -11,6 +11,14 @@ import { FrameTap } from '../ui/MotionEffect';
 export const HeaderLayout = () => {
   const [hoverIndex, setHoverIndex] = useState(null);
   const [isOpenNavigation, setIsOpenNavigation] = useState(false);
+
+  useEffect(() => {
+    document.documentElement.style.overflow = isOpenNavigation ? 'hidden' : 'visible';
+
+    return () => {
+      document.documentElement.style.overflow = 'visible';
+    };
+  }, [isOpenNavigation]);
 
   const toggleOpenNavigation = () => {
     setIsOpenNavigation(!isOpenNavigation);
