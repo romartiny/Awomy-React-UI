@@ -10,10 +10,7 @@ const NotFoundPage = () => {
     }, [navigate]);
 
     return (
-        <div>
-            <Logo />
-            11111
-        </div>
+        <Logo />
     );
 };
 

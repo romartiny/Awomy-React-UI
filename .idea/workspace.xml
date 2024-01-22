@@ -6,17 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3a55e056-9f63-4b93-b47a-9ed59a69c668" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/providers/ErrorBoundary/ui/ErrorBoundary.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/ErrorBoundary/ui/ErrorBoundary.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/providers/router/ui/AppRouter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/router/ui/AppRouter.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ConnectionDetector.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ConnectionDetector.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ErrorPage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Error/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ErrorPage/ui/ErrorPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Error/ui/ErrorPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/HomePage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/HomePage/ui/HomePage.async.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/ui/HomePage.async.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/HomePage/ui/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/ui/HomePage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OfflinePage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Offline/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OfflinePage/ui/OfflinePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Offline/ui/OfflinePage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/config/routeConfig/routeConfig.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/config/routeConfig/routeConfig.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Loader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Loader.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/NotFound/ui/NotFoundPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/NotFound/ui/NotFoundPage.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +83,7 @@
       <workItem from="1705857181912" duration="19929000" />
       <workItem from="1705882144165" duration="216000" />
       <workItem from="1705914046157" duration="27607000" />
-      <workItem from="1705947082258" duration="7878000" />
+      <workItem from="1705947082258" duration="9273000" />
     </task>
     <servers />
   </component>

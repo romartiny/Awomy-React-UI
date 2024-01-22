@@ -3,11 +3,11 @@ import { HashLoader, PuffLoader } from 'react-spinners';
 import { motion } from 'framer-motion';
 import loaderImage from './../app/assets/img/logo.png';
 
-export const PageHashLoader = () => {
+export const PageLogoLoader = () => {
   return (
       <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-          <motion.div initial={{ opacity: 0, scale: 0.8 }} animate={{ opacity: 1, scale: [0.8, 1.25, 1] }} transition={{duration: 1, repeat: Infinity, ease: 'easeInOut', repeatType: 'loop', repeatDelay: 0.7,}}>
-              <img src={loaderImage} height={100} width={100} alt={'Loader image'}/>
+          <motion.div initial={{ opacity: 1, scale: 0.8 }} animate={{ opacity: [0.7, 1.25, 0.7], scale: [0.9, 1.15, 0.9] }} transition={{duration: 1, repeat: Infinity, ease: 'easeInOut', repeatType: 'loop',}}>
+              <img src={loaderImage} height={100} width={100} alt={'Awomy loader image'}/>
           </motion.div>
       </div>
   );
