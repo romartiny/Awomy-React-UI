@@ -1,6 +1,6 @@
 import React from 'react';
-import { HomePage } from '../../../pages/HomePage';
-import {Navigate} from "react-router-dom";
+import { HomePage } from '../../../pages/Home';
+import {NotFoundPage} from "../../../pages/NotFound";
 
 export const routeConfig = {
   main: {
@@ -9,6 +9,6 @@ export const routeConfig = {
   },
   notFound: {
     path: '*',
-    element: <Navigate to={'/'} replace />
+    element: <NotFoundPage />
   }
 };

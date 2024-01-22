@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react';
-import ErrorPage from '../../../../pages/ErrorPage/ui/ErrorPage';
+import ErrorPage from '../../../../pages/Error/ui/ErrorPage';
 
 class ErrorBoundary extends React.Component {
   constructor (props) {

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { OfflinePage } from '../pages/OfflinePage';
+import { OfflinePage } from '../pages/Offline';
 
 const ConnectionDetector = (props) => {
   const [isOnline, setIsOnline] = useState(navigator.onLine);

@@ -20,7 +20,6 @@ const AppRouter = () => {
             ))
           }
         </Route>
-          {/*<Route path={'*'} element={<Navigate to={'/'} />} />*/}
       </Routes>
     </Suspense>
   );
