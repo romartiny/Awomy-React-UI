@@ -12,18 +12,8 @@ export const HeaderLayout = () => {
   const [hoverIndex, setHoverIndex] = useState(null);
   const [isOpenNavigation, setIsOpenNavigation] = useState(false);
 
-  const burgerToggleNavigation = () => {
+  const toggleOpenNavigation = () => {
     setIsOpenNavigation(!isOpenNavigation);
-
-    if (!isOpenNavigation) {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
-  }
-
-  const toggleOpenNavigation = (action) => {
-    action ? setIsOpenNavigation(true) : setIsOpenNavigation(false);
-
-
   };
 
   return (
@@ -39,7 +29,6 @@ export const HeaderLayout = () => {
         </div>
 
         <div className="items-center hidden lg:flex lg:gap-10 pl-16">
-          <>
             {navigationLinks.map(({_id, title, href}) => (
                 <Link to={href} key={_id} className="relative -mx-3 -my-2 py-2 px-3 rounded-lg text-base transition-colors text-white" onMouseEnter={() => setHoverIndex(_id)} onMouseLeave={() => setHoverIndex(null)}>
                   <AnimatePresence>
@@ -52,7 +41,6 @@ export const HeaderLayout = () => {
                   <span className="z-10 relative">{title}</span>
                 </Link>
             ))}
-          </>
         </div>
       </div>
 
@@ -65,7 +53,7 @@ export const HeaderLayout = () => {
               </Link>
             </FrameTap>
           </div>
-          <button type="button" onClick={() => burgerToggleNavigation()} className="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden dark:text-gray-400 dark:hover:bg-gray-700 transition ease-in-out delay-70" aria-controls="mobile-menu-2" aria-expanded="false">
+          <button type="button" onClick={() => toggleOpenNavigation()} className="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden dark:text-gray-400 dark:hover:bg-gray-700 transition ease-in-out delay-70" aria-controls="mobile-menu-2" aria-expanded="false">
             {
               isOpenNavigation
                   ? <svg className="w-6 h-6" fill="white" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -80,28 +68,23 @@ export const HeaderLayout = () => {
         <AnimatePresence initial={false}>
           {
             isOpenNavigation && (
-                  <>
-                    <Popover className="lg:hidden">
-                      <Popover.Overlay static as={motion.div} initial={{opacity: 0}} animate={{opacity: 1}} exit={{opacity: 0}} className="fixed z-20 inset-0 bg-gray-600/10 backdrop-blur cursor-default"/>
-                      <Popover.Panel static as={motion.div} initial={{opacity: 0, y: -32}} animate={{opacity: 1, y: 0}} exit={{opacity: 0, y: -32, transition: {duration: 0.2}}} className="absolute inset-x-0 top-0 z-30 origin-top rounded-b-2xl bg-gray-800 px-6 pb-6 pt-28 shadow-2xl shadow-gray-900/20 cursor-default">
-                        <div className="space-y-4">
-                          {
-                            navigationLinks.map(({_id, title, href, icon}) => (
-                                <MobileNavigationLinks href={href} key={_id} icon={icon} mobile={() => toggleOpenNavigation(false)}>{title}</MobileNavigationLinks>
-                            ))
-                          }
-                        </div>
-                      </Popover.Panel>
-                      <Popover.Panel static as={motion.div} initial={{opacity: 0, y: 32}} animate={{opacity: 1, y: 0}} exit={{opacity: 0, y: 32, transition: {duration: 0.2}}} className="w-full bottom-0 right-0 fixed z-30 origin-bottom rounded-t-2xl bg-gray-800 px-5 pb-5 pt-5 shadow-2xl shadow-gray-900/20 cursor-default">
-                        <button
-                            className="w-full text-white bg-pink-600 hover:bg-pink-700 font-bold rounded-lg text-sm px-5 py-2.5 mr-2 transition ease-in-out delay-70 focus:outline-none dark:focus:ring-blue-800">
-                          Log in
-                        </button>
-                      </Popover.Panel>
-                    </Popover>
-
-
-                  </>
+                <Popover className="lg:hidden">
+                  <Popover.Overlay static as={motion.div} initial={{opacity: 0}} animate={{opacity: 1}} exit={{opacity: 0}} className="fixed z-20 inset-0 bg-gray-600/10 backdrop-blur cursor-default"/>
+                  <Popover.Panel static as={motion.div} initial={{opacity: 0, y: -32}} animate={{opacity: 1, y: 0}} exit={{opacity: 0, y: -32, transition: {duration: 0.2}}} className="absolute inset-x-0 top-0 z-30 origin-top rounded-b-2xl px-6 sm:px-8 bg-gray-800 pb-6 pt-24 shadow-2xl shadow-gray-900/20 cursor-default">
+                    <div className="space-y-4">
+                      {
+                        navigationLinks.map(({_id, title, href, icon}) => (
+                            <MobileNavigationLinks href={href} key={_id} icon={icon} mobile={() => toggleOpenNavigation(false)}>{title}</MobileNavigationLinks>
+                        ))
+                      }
+                    </div>
+                  </Popover.Panel>
+                  <Popover.Panel static as={motion.div} initial={{opacity: 0, y: 32}} animate={{opacity: 1, y: 0}} exit={{opacity: 0, y: 32, transition: {duration: 0.2}}} className="w-full bottom-0 right-0 fixed z-30 origin-bottom rounded-t-2xl bg-gray-800 px-5 pb-5 pt-5 shadow-2xl shadow-gray-900/20 cursor-default">
+                    <button className="w-full text-white bg-pink-600 hover:bg-pink-700 font-bold rounded-lg text-sm px-5 py-2.5 mr-2 transition ease-in-out delay-70 focus:outline-none dark:focus:ring-blue-800">
+                      Log in
+                    </button>
+                  </Popover.Panel>
+                </Popover>
               )}
         </AnimatePresence>
       </div>

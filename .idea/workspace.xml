@@ -6,13 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3a55e056-9f63-4b93-b47a-9ed59a69c668" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/HeaderBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/HeaderBlock.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/HeaderLayout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/HeaderLayout.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Home/Cons.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Cons.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Loader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Loader.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/homeData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/homeData.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +76,7 @@
       <workItem from="1705855437783" duration="1677000" />
       <workItem from="1705857181912" duration="19929000" />
       <workItem from="1705882144165" duration="216000" />
-      <workItem from="1705914046157" duration="20948000" />
+      <workItem from="1705914046157" duration="23500000" />
     </task>
     <servers />
   </component>
