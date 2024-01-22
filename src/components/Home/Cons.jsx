@@ -6,7 +6,7 @@ import { FrameHover, FrameMotion } from '../ui/MotionEffect';
 
 const Cons = () => {
   return (
-    <section className="relative z-30 bg-black rounded-t-xl">
+    <section className="unset lg:relative z-30 bg-black rounded-t-xl">
       <Container
         id="account"
         aria-label="Features for building a portfolio"

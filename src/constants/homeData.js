@@ -11,7 +11,7 @@ import { DeviceNotificationIcon, DeviceTouchIcon, DeviceUserIcon } from '../comp
 import { CryptoScreen, InviteScreen, StocksScreen } from '../components/Home/MobileScreens';
 
 export const metadataHero = {
-  title: 'Create or look for new meetings',
+  title: 'Look for new people nearby',
   description: 'Already millions of people have arranged casual or scheduled meetings with the service',
   active: '10$ FREE',
   activeText: 'For the First Account',

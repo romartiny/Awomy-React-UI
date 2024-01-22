@@ -7,7 +7,7 @@ import { FrameMotion } from './ui/MotionEffect';
 
 const Footer = () => {
   return (
-    <footer id="footer-navigation" className="pt-20 sm:pt-32 z-30 bg-black relative">
+    <footer id="footer-navigation" className="pt-20 sm:pt-32 z-30 bg-black unset lg:relative">
       <Container>
         <FrameMotion initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ type: 'spring', stiffness: 130, damping: 25 }}>
           <div className="flex flex-col gap-12 lg:flex-row">
