@@ -19,10 +19,11 @@ const HomePage = () => {
                     <HeaderBlock onMobileOpened={onMobileOpened}/>
                 </header>
                 <HeroBlock/>
+                <div className="absolute lg:fixed inset-0 overflow-hidden">
+                    <BubbleBackgroundAsync/>
+                </div>
             </div>
-            <div className="absolute lg:fixed inset-0 overflow-hidden">
-                <BubbleBackgroundAsync/>
-            </div>
+
             <Footer/>
         </div>
     );
