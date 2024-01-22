@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3a55e056-9f63-4b93-b47a-9ed59a69c668" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/HeaderLayout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/HeaderLayout.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/footerData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/footerData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/headerData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/headerData.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/shared/config/routeConfig/routeConfig.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/config/routeConfig/routeConfig.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +81,7 @@
       <workItem from="1705857181912" duration="19929000" />
       <workItem from="1705882144165" duration="216000" />
       <workItem from="1705914046157" duration="27607000" />
-      <workItem from="1705947082258" duration="4952000" />
+      <workItem from="1705947082258" duration="5889000" />
     </task>
     <servers />
   </component>
