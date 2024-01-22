@@ -6,10 +6,10 @@ import Footer from "../../../components/Footer";
 import { BubbleBackgroundAsync } from "../../../components/Home/BubbleBackground/BubbleBackground.async";
 
 const HomePage = () => {
-    const [mobileFixed, setMobileFixed] = useState();
+    const [mobileFixed, setMobileFixed] = useState(false);
 
     const onMobileOpened = (info) => {
-        setMobileFixed(info);
+        setMobileFixed(!info);
     }
 
     return (
