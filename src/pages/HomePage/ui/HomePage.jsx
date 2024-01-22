@@ -7,6 +7,7 @@ import { BubbleBackgroundAsync } from "../../../components/Home/BubbleBackground
 
 const HomePage = () => {
     const [mobileFixed, setMobileFixed] = useState();
+
     const onMobileOpened = (info) => {
         setMobileFixed(info);
     }
@@ -20,9 +21,7 @@ const HomePage = () => {
                 </header>
                 <HeroBlock/>
             </div>
-            <div
-                className="absolute lg:fixed inset-0 overflow-hidden"
-            >
+            <div className="absolute lg:fixed inset-0 overflow-hidden">
                 <BubbleBackgroundAsync/>
             </div>
             <Cons/>
