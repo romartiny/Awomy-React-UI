@@ -20,17 +20,7 @@ const ConnectionDetector = (props) => {
   }, [isOnline]);
 
   return (
-    <>
-      {
-        isOnline
-          ? (
-              props.children
-            )
-          : (
-            <OfflinePage/>
-            )
-      }
-    </>
+    <>{isOnline ? (props.children) : (<OfflinePage/>)}</>
   );
 };
 

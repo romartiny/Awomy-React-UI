@@ -15,7 +15,7 @@ const Tabs = ({tabs, selectedTabIndex, setSelectedTab,}) => {
     const navRef = useRef(null);
     const navRect = navRef.current?.getBoundingClientRect();
 
-    const selectedRect = buttonRefs[selectedTabIndex]?.getBoundingClientRect();
+    // const selectedRect = buttonRefs[selectedTabIndex]?.getBoundingClientRect();
 
     const [hoveredTabIndex, setHoveredTabIndex] = useState(null);
     const hoveredRect = buttonRefs[hoveredTabIndex ?? -1]?.getBoundingClientRect();

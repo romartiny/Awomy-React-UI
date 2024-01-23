@@ -37,28 +37,30 @@ const BubbleBackground = () => {
     }, [targetPosition]);
 
     return (
-        <div className="gradient-bubble-bg">
-            <svg xmlns="http://www.w3.org/2000/svg">
-                <defs>
-                    <filter id="bubbles">
-                        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"/>
-                        <feColorMatrix
-                            in="blur"
-                            mode="matrix"
-                            values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8"
-                            result="bubbles"
-                        />
-                        <feBlend in="SourceGraphic" in2="bubbles"/>
-                    </filter>
-                </defs>
-            </svg>
-            <div className="gradients-container">
-                <div className="color-bubble-first"></div>
-                <div className="color-bubble-second"></div>
-                <div className="color-bubble-third"></div>
-                <div className="color-bubble-fourth"></div>
-                <div className="color-bubble-fifth"></div>
-                <div className="bubble-interactive" ref={interBubbleRef}></div>
+        <div className="absolute lg:fixed inset-0 overflow-hidden">
+            <div className="gradient-bubble-bg">
+                <svg xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <filter id="bubbles">
+                            <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"/>
+                            <feColorMatrix
+                                in="blur"
+                                mode="matrix"
+                                values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8"
+                                result="bubbles"
+                            />
+                            <feBlend in="SourceGraphic" in2="bubbles"/>
+                        </filter>
+                    </defs>
+                </svg>
+                <div className="gradients-container">
+                    <div className="color-bubble-first"></div>
+                    <div className="color-bubble-second"></div>
+                    <div className="color-bubble-third"></div>
+                    <div className="color-bubble-fourth"></div>
+                    <div className="color-bubble-fifth"></div>
+                    <div className="bubble-interactive" ref={interBubbleRef}></div>
+                </div>
             </div>
         </div>
     );

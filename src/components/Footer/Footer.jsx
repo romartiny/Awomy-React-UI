@@ -1,9 +1,10 @@
 import React from 'react';
-import Container from './Container';
+import Container from '../Container';
 import { Link } from 'react-router-dom';
-import logoUrl from '../app/assets/img/logo.png';
-import { footerData } from '../constants/footerData';
-import { FrameMotion } from './ui/MotionEffect';
+import logoUrl from '../../app/assets/img/logo.png';
+import { footerData } from '../../constants/footerData';
+import { FrameMotion } from '../ui/MotionEffect';
+import Logo from "../Logo";
 
 const Footer = () => {
   return (
@@ -14,7 +15,7 @@ const Footer = () => {
             <div className="flex-1 mx-auto lg:mx-0 mb-6 max-w-[285px]">
               <div className="header-logo">
                 <Link to='/' className="flex items-center">
-                  <img src={logoUrl} className="mr-3 h-8 md:lg-9 sm:h-9 lg:h-9" alt="Awomy logo" />
+                  <Logo className={'mr-3 h-8 md:lg-9 sm:h-9 lg:h-9'}/>
                   <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Awomy</span>
                 </Link>
               </div>

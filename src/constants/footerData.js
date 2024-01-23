@@ -9,6 +9,10 @@ export const footerData = {
       link: '/learn'
     },
     {
+      title: 'Download',
+      link: '/download'
+    },
+    {
       title: 'Support',
       link: '/support'
     },
@@ -19,10 +23,6 @@ export const footerData = {
     {
       title: 'Help',
       link: '/help'
-    },
-    {
-      title: 'Download',
-      link: '/download'
     }
   ],
   resourcesLinks: [
