@@ -1,7 +1,6 @@
 import React from 'react';
 import Container from '../Container';
 import { Link } from 'react-router-dom';
-import logoUrl from '../../app/assets/img/logo.png';
 import { footerData } from '../../constants/footerData';
 import { FrameMotion } from '../ui/MotionEffect';
 import Logo from "../Logo";
@@ -14,8 +13,8 @@ const Footer = () => {
           <div className="flex flex-col gap-12 lg:flex-row">
             <div className="flex-1 mx-auto lg:mx-0 mb-6 max-w-[285px]">
               <div className="header-logo">
-                <Link to='/' className="flex items-center">
-                  <Logo className={'mr-3 h-8 md:lg-9 sm:h-9 lg:h-9'}/>
+                <Link to={'/'} className="flex items-center">
+                  <Logo className={'mr-3 h-8 md:lg-9 sm:h-9 lg:h-9'} />
                   <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Awomy</span>
                 </Link>
               </div>
@@ -29,7 +28,7 @@ const Footer = () => {
                   {
                     footerData.quickLinks.map(item => (
                         <li key={item.title}>
-                          <a className="hover:bg-primary-800 font-medium rounded-lg text-sm hover:text-gray-400 transition ease-in-out delay-70" href={item.link}>{item.title}</a>
+                          <Link to={item.link} className="hover:bg-primary-800 font-medium rounded-lg text-sm hover:text-gray-400 transition ease-in-out delay-70">{item.title}</Link>
                         </li>
                     ))
                   }
@@ -43,7 +42,7 @@ const Footer = () => {
                   {
                     footerData.resourcesLinks.map(item => (
                       <li key={item.title}>
-                        <a className="hover:bg-primary-800 font-medium rounded-lg text-sm hover:text-gray-400 transition ease-in-out delay-70" href={item.link}>{item.title}</a>
+                        <Link to={item.link} className="hover:bg-primary-800 font-medium rounded-lg text-sm hover:text-gray-400 transition ease-in-out delay-70">{item.title}</Link>
                       </li>
                     ))
                   }
@@ -57,7 +56,7 @@ const Footer = () => {
                   {
                     footerData.tokensLinks.map(item => (
                       <li key={item.title}>
-                        <a className="hover:bg-primary-800 font-medium rounded-lg text-sm hover:text-gray-400 transition ease-in-out delay-70" href={item.link}>{item.title}</a>
+                        <Link to={item.link} className="hover:bg-primary-800 font-medium rounded-lg text-sm hover:text-gray-400 transition ease-in-out delay-70">{item.title}</Link>
                       </li>
                     ))
                   }

@@ -6,18 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="3a55e056-9f63-4b93-b47a-9ed59a69c668" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ConnectionDetector.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ConnectionDetector.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Desktop/DesktopLogo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Desktop/DesktopLogo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/HeaderSwitch.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/HeaderSwitch.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/BackgroundDesign.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/BubbleBackground/BubbleBackground.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/BubbleBackground/BubbleBackground.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Loader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Loader.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Mobile/MobileHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Mobile/MobileHeader.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Logo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Logo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui/Chart.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/footerData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/footerData.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home/ui/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/ui/HomePage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/lib/framer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/lib/framer.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +90,7 @@
       <workItem from="1705882144165" duration="216000" />
       <workItem from="1705914046157" duration="27607000" />
       <workItem from="1705947082258" duration="11139000" />
-      <workItem from="1706042364663" duration="9299000" />
+      <workItem from="1706042364663" duration="10428000" />
     </task>
     <servers />
   </component>

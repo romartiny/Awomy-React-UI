@@ -5,9 +5,7 @@ import clsx from 'clsx';
 
 const Logo = ({ className, props }) => {
   return (
-    <Link to={'/'}>
       <img src={logoUrl ?? undefined} className={clsx('h-9 sm:h-10 duration-300', className)} {...props} alt="Awomy logo"/>
-    </Link>
   );
 };
 
