@@ -13,6 +13,9 @@ const HomePage = () => {
                 <BubbleBackgroundAsync/>
             </div>
             <Footer/>
+            <Footer/>
+            <Footer/>
+            <Footer/>
         </div>
     );
 };

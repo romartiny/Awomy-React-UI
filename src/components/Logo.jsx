@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import logoUrl from '../app/assets/img/logo.png';
 import clsx from 'clsx';
 
