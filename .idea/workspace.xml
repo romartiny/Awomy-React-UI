@@ -6,7 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="3a55e056-9f63-4b93-b47a-9ed59a69c668" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/ui/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/ui/HomePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/HeaderBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/HeaderBlock.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/HeaderLayout.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/MobileNavigationLinks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Mobile/MobileStaticNavigation.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/Hero/HeroBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Hero/HeroBlock.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/MotionEffect.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/MotionEffect.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/headerData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/headerData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/FrameData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/UtilFunctions.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +27,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -46,6 +58,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/Header/Mobile" />
       <recent name="$PROJECT_DIR$/src/components/Home/Hero" />
       <recent name="$PROJECT_DIR$/src/app/assets/fonts" />
     </key>
@@ -81,7 +94,8 @@
       <workItem from="1705857181912" duration="19929000" />
       <workItem from="1705882144165" duration="216000" />
       <workItem from="1705914046157" duration="27607000" />
-      <workItem from="1705947082258" duration="10603000" />
+      <workItem from="1705947082258" duration="11139000" />
+      <workItem from="1706042364663" duration="7569000" />
     </task>
     <servers />
   </component>

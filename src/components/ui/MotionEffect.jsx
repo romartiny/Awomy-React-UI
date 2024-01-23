@@ -14,20 +14,12 @@ export const FrameMotion = ({ component: Component, children, initial, animate, 
   );
 };
 
-export const FrameTap = ({ component: Component, children, whileTap, ...props }) => {
+export const FrameHoverTap = ({ component: Component, children, whileTap, whileHover, ...props }) => {
   return (
     <motion.div
       whileTap={whileTap}
-    >
-      { Component ? <Component {...props} /> : children }
-    </motion.div>
-  );
-};
-
-export const FrameHover = ({ component: Component, children, whileHover, ...props }) => {
-  return (
-    <motion.div
       whileHover={whileHover}
+      transition={{ duration: 0.5, ease: "easeInOut" }}
     >
       { Component ? <Component {...props} /> : children }
     </motion.div>

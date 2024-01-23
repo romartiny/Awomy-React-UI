@@ -53,6 +53,7 @@
   "dependencies": {
     "@reduxjs/toolkit": "^2.0.1",
     "axios": "^1.5.1",
+    "classnames": "^2.5.1",
     "cssnano": "^6.0.1",
     "postcss-class-rename": "^1.0.1",
     "react-dom": "^18.2.0",

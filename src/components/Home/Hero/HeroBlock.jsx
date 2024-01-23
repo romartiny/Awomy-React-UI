@@ -4,7 +4,7 @@ import Title from '../Title';
 import {IoIosArrowDroprightCircle} from 'react-icons/io';
 import {metadataHero} from '../../../constants/homeData';
 import {Link} from 'react-router-dom';
-import {FrameMotion, FrameTap} from '../../ui/MotionEffect';
+import {FrameMotion, FrameHoverTap} from '../../ui/MotionEffect';
 
 const HeroBlock = () => {
     const [scrollOpacity, setScrollOpacity] = useState(1);
@@ -32,12 +32,12 @@ const HeroBlock = () => {
                 </FrameMotion>
                 <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-4">
                     <FrameMotion initial={{opacity: 0, y: 40}} animate={{opacity: 1, y: 0}} transition={{type: 'spring', stiffness: 130, damping: 35}}>
-                        <FrameTap whileTap={{scale: 0.9}}>
+                        <FrameHoverTap whileTap={{scale: 0.9}} whileHover={{scale: 1.03}}>
                             <Link className="btn rounded-2xl gap-x-6 shadow-2xl pl-6 text-sm lg:h-16 font-bold lg:text-base text-white bg-gradient-to-r from-pink-600 to-purple-600 hover:brightness-90 px-5 py-2.5 transition duration-500 ease-in-out delay-170 focus:outline-none" to="/login">
                                 {metadataHero.button}
                                 <IoIosArrowDroprightCircle className="text-2xl lg:text-3xl"/>
                             </Link>
-                        </FrameTap>
+                        </FrameHoverTap>
                     </FrameMotion>
                 </div>
             </Container>
