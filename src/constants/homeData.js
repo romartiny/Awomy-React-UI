@@ -6,7 +6,12 @@ export const metadataHero = {
   button: 'Create account'
 };
 
-export const advantagesData = [
+export const advantagesData = {
+  title: 'We care about our platform',
+  description: 'Every user is important to us, so we try to maintain the platform for a wide range of users with quality and speed'
+};
+
+export const advantagesBlocksData = [
   {
     name: "Safety",
     description: "The platform monitors the security of all users and data of each service in the application. All data is fully encrypted and inaccessible to third parties.",
