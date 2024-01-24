@@ -6,14 +6,14 @@ import { BubbleBackgroundAsync } from "../../../components/Home/BubbleBackground
 
 const HomePage = () => {
     return (
-        <div className="page-container">
+        <>
             <div className="h-screen flex flex-col relative overflow-hidden">
                 <HeaderSwitch/>
                 <HeroBlock/>
                 <BubbleBackgroundAsync/>
             </div>
             <Footer/>
-        </div>
+        </>
     );
 };
 

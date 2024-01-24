@@ -15,7 +15,7 @@ const Footer = () => {
               <div className="header-logo">
                 <Link to={'/'} className="flex items-center">
                   <Logo className={'mr-3 h-8 md:lg-9 sm:h-9 lg:h-9'} />
-                  <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Awomy</span>
+                  <h2 className="self-center text-xl font-semibold whitespace-nowrap text-white">Awomy</h2>
                 </Link>
               </div>
             </div>

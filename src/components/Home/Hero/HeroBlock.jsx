@@ -25,7 +25,8 @@ const HeroBlock = () => {
 
     return (
         <section className="h-full flex items-center overflow-hidden z-10" style={{opacity: scrollOpacity}}>
-            <Container className={'flex flex-col items-center relative z-10 mx-auto max-w-2xl lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6'}>
+            <Container
+                className={'flex flex-col items-center relative z-10 mx-auto max-w-2xl lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6'}>
                 <FrameMotion initial={{opacity: 0, y: 40}} animate={{opacity: 1, y: 0}} transition={{type: 'spring', stiffness: 130, damping: 25}} styles="flex items-center flex-col">
                     <Title title={metadataHero.title} className="font-bold text-5xl text-center"/>
                     <p className="mt-6 text-lg text-gray-300 text-center">{metadataHero.description}</p>
@@ -33,7 +34,7 @@ const HeroBlock = () => {
                 <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-4">
                     <FrameMotion initial={{opacity: 0, y: 40}} animate={{opacity: 1, y: 0}} transition={{type: 'spring', stiffness: 130, damping: 35}}>
                         <FrameHoverTap whileTap={{scale: 0.9}} whileHover={{scale: 1.03}}>
-                            <Link className="btn rounded-2xl gap-x-6 shadow-2xl pl-6 text-sm lg:h-16 font-bold lg:text-base text-white bg-gradient-to-r from-pink-600 to-purple-600 hover:brightness-90 px-5 py-2.5 transition duration-500 ease-in-out delay-170 focus:outline-none" to="/login">
+                            <Link to="/login" className="btn rounded-2xl gap-x-6 shadow-2xl pl-6 text-sm lg:h-16 font-bold lg:text-base text-white bg-gradient-to-r from-pink-600 to-purple-600 hover:brightness-90 px-5 py-2.5 transition duration-500 ease-in-out delay-170 focus:outline-none">
                                 {metadataHero.button}
                                 <IoIosArrowDroprightCircle className="text-2xl lg:text-3xl"/>
                             </Link>

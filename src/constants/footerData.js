@@ -1,12 +1,12 @@
 export const footerData = {
   quickLinks: [
     {
-      title: 'Home',
-      link: '/'
-    },
-    {
       title: 'Learn',
       link: '/learn'
+    },
+    {
+      title: 'Safety',
+      link: '/safety'
     },
     {
       title: 'Download',
