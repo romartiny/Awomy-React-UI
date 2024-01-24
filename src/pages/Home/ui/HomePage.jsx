@@ -3,6 +3,7 @@ import HeroBlock from '../../../components/Home/Hero/HeroBlock';
 import { HeaderSwitch } from "../../../components/Header/HeaderSwitch";
 import Footer from "../../../components/Footer/Footer";
 import { BubbleBackgroundAsync } from "../../../components/Home/BubbleBackground/BubbleBackground.async";
+import AdvantagesBlock from "../../../components/Home/Advantages /AdvantagesBlock";
 
 const HomePage = () => {
     return (
@@ -12,6 +13,7 @@ const HomePage = () => {
                 <HeroBlock/>
                 <BubbleBackgroundAsync/>
             </div>
+            <AdvantagesBlock />
             <Footer/>
         </>
     );
