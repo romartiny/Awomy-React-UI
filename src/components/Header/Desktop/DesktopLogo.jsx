@@ -6,7 +6,7 @@ const DesktopLogo = () => {
     return (
         <Link to="/" className="flex items-center">
             <Logo className={'mr-3 h-8 md:lg-9 sm:h-9 lg:h-9 drop-shadow-xl'}/>
-            <h1 className="text-white self-center whitespace-nowrap text-2xl lg:text-3xl font-semibold">Awomy</h1>
+            <span className="text-white self-center whitespace-nowrap text-2xl lg:text-3xl font-semibold">Awomy</span>
         </Link>
     );
 };

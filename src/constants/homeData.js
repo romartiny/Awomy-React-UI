@@ -31,3 +31,21 @@ export const advantagesBlocksData = [
     href: '/privacy',
   }
 ];
+
+export const mapData = {
+  title: 'New meetings are right around the corner',
+  description: 'Search for new acquaintances near you on the map and spend your free time with different people',
+};
+
+export const readyData = {
+  title: 'Ready to get started?',
+  description: 'Create an account and start creating new moments',
+  signUp: {
+    title: 'Sign up for for',
+    href: '/login'
+  },
+  learnMore: {
+    title: 'Learn more',
+    href: '/login'
+  }
+};

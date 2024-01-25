@@ -27,7 +27,7 @@ function buildLoaders () {
         }
       }
     ],
-    include: path.resolve(__dirname, 'src/app/assets/img')
+    include: path.resolve(__dirname, 'src/app/assets/images')
   };
 
   const svgLoader = {

@@ -61,6 +61,24 @@ export const footerData = {
       link: '/crypto/ton'
     }
   ],
+  fastLinks: [
+    {
+      title: 'FAQ',
+      href: '/faq'
+    },
+    {
+      title: 'Terms',
+      href: '/terms'
+    },
+    {
+      title: 'Cookie Policy',
+      href: '/cookie'
+    },
+    {
+      title: 'Contact',
+      href: '/contact'
+    }
+  ],
   copyright: {
     title: 'Awomy © Copyright 2024. All rights reserved.',
     link: '/copyright'

@@ -12,9 +12,9 @@ const Advantage = ({item, index}) => {
                     <h3 className="mt-6 font-semibold text-white/70 group-hover:text-white duration-500">
                         {item.name}
                     </h3>
-                    <p className="pt-4 text-gray-600 group-hover:text-gray-400 duration-500 text-left">
+                    <span className="pt-4 text-gray-600 group-hover:text-gray-400 duration-500 text-left">
                         {item.description}
-                    </p>
+                    </span>
                 </div>
                 <span className="pt-4 text-indigo-400 group-hover:text-gray-100 duration-500 ease-in-out">
                     Read more

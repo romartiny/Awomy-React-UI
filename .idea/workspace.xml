@@ -6,9 +6,35 @@
   <component name="ChangeListManager">
     <list default="true" id="3a55e056-9f63-4b93-b47a-9ed59a69c668" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/build/buildLoaders.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/build/buildLoaders.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/assets/img/favicons/android-chrome-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/assets/images/favicons/android-chrome-192x192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/assets/img/favicons/android-chrome-512x512.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/assets/images/favicons/android-chrome-512x512.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/assets/img/favicons/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/assets/images/favicons/apple-touch-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/assets/img/favicons/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/assets/images/favicons/favicon-16x16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/assets/img/favicons/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/assets/images/favicons/favicon-32x32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/assets/img/favicons/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/assets/images/favicons/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/assets/img/logo-backup.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/assets/images/logos/logo-backup.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/assets/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/assets/images/logos/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/assets/img/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/assets/images/logos/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/assets/img/logos/bbc.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/assets/img/logos/cbs.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/assets/img/logos/cnn.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/assets/img/logos/fast-company.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/assets/img/logos/forbes.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/assets/img/logos/huffpost.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/assets/img/logos/techcrunch.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/assets/img/logos/wired.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/assets/img/phone-frame.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/assets/images/phone-frame.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Desktop/DesktopLogo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Desktop/DesktopLogo.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Home/Advantages /Advantage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Advantages /Advantage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Home/Advantages /AdvantagesBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Advantages /AdvantagesBlock.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/Hero/HeroBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Hero/HeroBlock.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Loader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Loader.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Logo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Logo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/footerData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/footerData.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/constants/homeData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/homeData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/ui/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/ui/HomePage.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,16 +71,18 @@
     &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;ts.external.directory.path&quot;: &quot;/Users/romartiny/Documents/Git/awomy-project/awomy-ui/node_modules/typescript/lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/app/assets/images/logos" />
+      <recent name="$PROJECT_DIR$/src/app/assets/img" />
       <recent name="$PROJECT_DIR$/src/components/Footer" />
       <recent name="$PROJECT_DIR$/src/components/Header/Mobile" />
-      <recent name="$PROJECT_DIR$/src/components/Home/Hero" />
-      <recent name="$PROJECT_DIR$/src/app/assets/fonts" />
     </key>
   </component>
   <component name="RunManager">
@@ -93,7 +121,9 @@
       <workItem from="1706089801073" duration="2667000" />
       <workItem from="1706097491085" duration="1198000" />
       <workItem from="1706104306022" duration="22284000" />
-      <workItem from="1706129573820" duration="2956000" />
+      <workItem from="1706129573820" duration="3442000" />
+      <workItem from="1706176592686" duration="6629000" />
+      <workItem from="1706195740475" duration="12631000" />
     </task>
     <servers />
   </component>

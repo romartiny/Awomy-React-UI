@@ -64,8 +64,17 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="mx-auto flex flex-col items-center gap-y-6 lg:flex-row lg:justify-between pt-12">
-            <div className="font-medium whitespace-nowrap mb-6">
+          <div className="mx-auto flex flex-col items-center gap-y-6 md:flex-row md:justify-between pt-12 pb-6">
+            <ul className="flex">
+              {
+                footerData.fastLinks.map(item => (
+                    <li key={item.title}>
+                      <Link to={item.link} className="hover:bg-primary-800 space-x-5 mx-4 md:pr-5 md:mx-0 font-medium rounded-lg text-sm hover:text-gray-400 transition ease-in-out delay-70">{item.title}</Link>
+                    </li>
+                ))
+              }
+            </ul>
+            <div className="font-medium whitespace-nowrap">
               <Link to={footerData.copyright.link}>
                 {footerData.copyright.title}
               </Link>

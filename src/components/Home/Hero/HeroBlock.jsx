@@ -28,8 +28,8 @@ const HeroBlock = () => {
             <Container
                 className={'flex flex-col items-center relative z-10 mx-auto max-w-2xl lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6'}>
                 <FrameMotion initial={{opacity: 0, y: 40}} animate={{opacity: 1, y: 0}} transition={{type: 'spring', stiffness: 130, damping: 25}} styles="flex items-center flex-col">
-                    <Title title={metadataHero.title} className="font-bold text-5xl text-center"/>
-                    <p className="mt-6 text-lg text-gray-300 text-center">{metadataHero.description}</p>
+                    <h1 className="font-bold tracking-tight text-gray-200 text-5xl text-center">{metadataHero.title}</h1>
+                    <span className="mt-6 text-lg text-gray-300 text-center">{metadataHero.description}</span>
                 </FrameMotion>
                 <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-4">
                     <FrameMotion initial={{opacity: 0, y: 40}} animate={{opacity: 1, y: 0}} transition={{type: 'spring', stiffness: 130, damping: 35}}>

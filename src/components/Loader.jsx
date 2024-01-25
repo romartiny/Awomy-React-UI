@@ -1,7 +1,7 @@
 import React from 'react';
 import { PuffLoader } from 'react-spinners';
 import { motion } from 'framer-motion';
-import loaderImage from './../app/assets/img/logo.png';
+import loaderImage from '../app/assets/images/logos/logo.png';
 
 export const PageLogoLoader = () => {
   return (
