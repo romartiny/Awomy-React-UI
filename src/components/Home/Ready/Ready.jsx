@@ -6,7 +6,7 @@ import {readyData} from "../../../constants/homeData";
 
 const Ready = () => {
     return (
-        <section className="relative bg-black z-50">
+        <section className="relative bg-black z-20">
             <Container className="py-12 sm:py-16">
                 <div className="flex flex-col items-center bg-gray-900/60 rounded-2xl px-7 py-16">
                     <div className="flex flex-col items-center mt-5">

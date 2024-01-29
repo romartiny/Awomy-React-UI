@@ -8,7 +8,7 @@ import {faLocationDot} from "@fortawesome/free-solid-svg-icons";
 import {mapData} from "../../../constants/homeData";
 
 const World = () => (
-    <section className="relative bg-black z-50">
+    <section className="relative bg-black z-20">
         <Container className="py-12 sm:py-16">
             <motion.div className="mx-auto flex flex-col">
                 <div className="mx-auto max-w-2xl sm:text-center">

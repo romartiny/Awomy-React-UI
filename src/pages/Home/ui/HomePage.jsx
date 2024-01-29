@@ -4,7 +4,7 @@ import { HeaderSwitch } from "../../../components/Header/HeaderSwitch";
 import Footer from "../../../components/Footer/Footer";
 import { BubbleBackgroundAsync } from "../../../components/Home/BubbleBackground/BubbleBackground.async";
 import AdvantagesBlock from "../../../components/Home/Advantages /AdvantagesBlock";
-import InsightBlock from "../../../components/Home/Insight/InsightBlock";
+import InsightBlock from "../../../components/Home/Map/MapBlock";
 import Testimonial from "../../../components/Testimonials (Learn Page)/Testimonial";
 import Ready from "../../../components/Home/Ready/Ready";
 
