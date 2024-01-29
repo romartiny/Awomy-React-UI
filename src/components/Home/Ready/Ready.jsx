@@ -6,7 +6,7 @@ import {readyData} from "../../../constants/homeData";
 
 const Ready = () => {
     return (
-        <section className="relative bg-black z-20">
+        <section id="get-started" className="relative bg-black z-20">
             <Container className="py-12 sm:py-16">
                 <div className="flex flex-col items-center bg-gray-900/60 rounded-2xl px-5 py-9 lg:py-16 lg:px-7">
                     <div className="flex flex-col items-center mt-5">
@@ -20,7 +20,7 @@ const Ready = () => {
                 </div>
             </Container>
         </section>
-);
+    );
 };
 
 export default Ready;

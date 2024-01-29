@@ -75,7 +75,7 @@ const Footer = () => {
               }
             </ul>
             <div className="font-medium whitespace-nowrap">
-              <Link to={footerData.copyright.link}>
+              <Link to={footerData.copyright.link} className="text-xs lg:text-sm hover:text-gray-300 transition ease-in-out delay-70">
                 {footerData.copyright.title}
               </Link>
             </div>

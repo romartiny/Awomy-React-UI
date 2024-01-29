@@ -11,11 +11,11 @@ import Ready from "../../../components/Home/Ready/Ready";
 const HomePage = () => {
     return (
         <>
-            <div className="h-screen flex flex-col relative overflow-hidden">
+            <section id="mixed-hero" className="h-screen flex flex-col relative overflow-hidden">
                 <HeaderSwitch/>
                 <HeroBlock/>
                 <BubbleBackgroundAsync/>
-            </div>
+            </section>
             <AdvantagesBlock />
             <InsightBlock />
             <Ready />
