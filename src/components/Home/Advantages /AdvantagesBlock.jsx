@@ -6,7 +6,7 @@ import {advantagesBlocksData, advantagesData} from "../../../constants/homeData"
 
 const AdvantagesBlock = () => {
     return (
-        <section className="bg-black relative rounded-t sm:rounded-xl-t lg:rounded-2xl-t z-20">
+        <section className="bg-black relative rounded-t sm:rounded-t-xl lg:rounded-t-2xl z-20">
             <Container className="py-12 sm:py-16">
                 <div className="mx-auto max-w-2xl sm:text-center">
                     <Title title={advantagesData.title} className="text-2xl"/>
