@@ -41,7 +41,7 @@ export const readyData = {
   title: 'Ready to get started?',
   description: 'Create an account and start creating new moments',
   signUp: {
-    title: 'Sign up for for',
+    title: 'Sign up',
     href: '/login'
   },
   learnMore: {
