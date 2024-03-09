@@ -27,8 +27,8 @@ export const footerData = {
   ],
   resourcesLinks: [
     {
-      title: 'Crypto API',
-      link: '/crypto/api'
+      title: 'Awomy API',
+      link: '/Awomy/api'
     },
     {
       title: 'Blockchain Explore',
@@ -46,19 +46,19 @@ export const footerData = {
   tokensLinks: [
     {
       title: 'Bitcoin',
-      link: '/crypto/bitcoin'
+      link: '/Awomy/bitcoin'
     },
     {
       title: 'Ethereum',
-      link: '/crypto/ethereum'
+      link: '/Awomy/ethereum'
     },
     {
       title: 'Flower',
-      link: '/crypto/flower'
+      link: '/Awomy/flower'
     },
     {
       title: 'Ton',
-      link: '/crypto/ton'
+      link: '/Awomy/ton'
     }
   ],
   fastLinks: [
